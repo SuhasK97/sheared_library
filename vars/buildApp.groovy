@@ -1,4 +1,4 @@
-def call(String buildCmd) {
-    echo "Building application..."
-    sh buildCmd
+def call() {
+    sh 'mvn clean package'
 }
+
