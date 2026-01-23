@@ -1,3 +1,4 @@
-def call(String env="main") {
-  echo " Application deployed $env successfully....." 
+def call(String env = "main") {
+    echo "Application deployed to ${env} successfully..."
 }
+
